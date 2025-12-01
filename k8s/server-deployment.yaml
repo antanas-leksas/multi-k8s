@@ -36,12 +36,12 @@ spec:
                 secretKeyRef:
                   name: pgpassword
                   key: PGPASSWORD
-          resources:
-            requests:
-              ephemeral-storage: 1Gi
-              memory: "2Gi"
-              cpu: "1000m"
-            limits:
-              ephemeral-storage: 2Gi
-              memory: "4Gi"
-              cpu: "1500m"
+          # resources:
+          #   requests:
+          #     ephemeral-storage: 1Gi
+          #     memory: "2Gi"
+          #     cpu: "1000m"
+          #   limits:
+          #     ephemeral-storage: 2Gi
+          #     memory: "4Gi"
+          #     cpu: "1500m"
